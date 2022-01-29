@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{604BE484-BCFB-E147-6E9C-6E3CBAB837D9}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -54,70 +54,70 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Scriptable_Objects\HeadBobData.cs" />
     <Compile Include="Assets\Scripts\Camera_Controller\CameraBreathing.cs" />
+    <Compile Include="Assets\Scripts\MouseLook.cs" />
     <Compile Include="Assets\Scripts\First_Person_Controller\FirstPersonController.cs" />
+    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
     <Compile Include="Assets\Scripts\Interaction_System\Pickable.cs" />
     <Compile Include="Assets\Scripts\Scriptable_Objects\MovementInputData.cs" />
-    <Compile Include="Assets\Scripts\Interactables\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\bombcountdown.cs" />
     <Compile Include="Assets\Scripts\Interaction_System\IPickable.cs" />
     <Compile Include="Assets\Scripts\Perlin_Noise_Scroller\PerlinNoiseScroller.cs" />
-    <Compile Include="Assets\Scripts\First_Person_Controller\HeadBob.cs" />
-    <Compile Include="Assets\Scripts\Interaction_System\InteractionUI.cs" />
-    <Compile Include="Assets\Scripts\Scriptable_Objects\PickableData.cs" />
-    <Compile Include="Assets\Scripts\Interaction_System\IHoverable.cs" />
-    <Compile Include="Assets\Scripts\Interactables\DestroyInteractable.cs" />
-    <Compile Include="Assets\Scripts\Interactables\NotesInteractable.cs" />
-    <Compile Include="Assets\Scripts\Scriptable_Objects\PerlinNoiseData.cs" />
-    <Compile Include="Assets\Scripts\Camera_Controller\CameraSwaying.cs" />
-    <Compile Include="Assets\Scripts\Input_Handler\InputHandler.cs" />
-    <Compile Include="Assets\Scripts\Interaction_System\IInteractable.cs" />
-    <Compile Include="Assets\Scripts\Camera_Controller\CameraController.cs" />
-    <Compile Include="Assets\Scripts\Scriptable_Objects\CameraInputData.cs" />
-    <Compile Include="Assets\Scripts\Scriptable_Objects\InteractionInputData.cs" />
-    <Compile Include="Assets\Scripts\Interaction_System\InteractionController.cs" />
-    <Compile Include="Assets\Scripts\Interaction_System\InteractableBase.cs" />
-    <Compile Include="Assets\Scripts\Interaction_System\InteractionUIPanel.cs" />
-    <Compile Include="Assets\Scripts\Interaction_System\InteractionData.cs" />
-    <Compile Include="Assets\Scripts\Camera_Controller\CameraZoom.cs" />
-    <Compile Include="Assets\Scripts\Interaction_System\Hoverable.cs" />
-    <Compile Include="Assets\Scripts\Scriptable_Objects\PickableInputData.cs" />
-    <Compile Include="Assets\Scripts\MouseLook.cs" />
-    <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_PhoneNumberValidator.cs" />
-    <Compile Include="Assets\Scripts\bombcountdown.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark03.cs" />
+    <Compile Include="Assets\Scripts\First_Person_Controller\HeadBob.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventCheck.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextEventHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
+    <Compile Include="Assets\Scripts\Interaction_System\InteractionUI.cs" />
+    <Compile Include="Assets\Scripts\Scriptable_Objects\PickableData.cs" />
+    <Compile Include="Assets\Scripts\Interaction_System\IHoverable.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexJitter.cs" />
+    <Compile Include="Assets\Scripts\Interactables\DestroyInteractable.cs" />
     <Compile Include="Assets\Scripts\Prisoner\prisonerStart.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ChatController.cs" />
+    <Compile Include="Assets\Scripts\Interactables\NotesInteractable.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
+    <Compile Include="Assets\Scripts\Scriptable_Objects\PerlinNoiseData.cs" />
+    <Compile Include="Assets\Scripts\Camera_Controller\CameraSwaying.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
+    <Compile Include="Assets\Scripts\Input_Handler\InputHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
+    <Compile Include="Assets\Scripts\Interaction_System\IInteractable.cs" />
+    <Compile Include="Assets\Scripts\Camera_Controller\CameraController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\DropdownSample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextConsoleSimulator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ShaderPropAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_A.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SimpleScript.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextInfoDebugTool.cs" />
+    <Compile Include="Assets\Scripts\Scriptable_Objects\CameraInputData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_FrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_TextSelector_B.cs" />
+    <Compile Include="Assets\Scripts\Scriptable_Objects\InteractionInputData.cs" />
+    <Compile Include="Assets\Scripts\Interaction_System\InteractionController.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\SkewTextExample.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark04.cs" />
+    <Compile Include="Assets\Scripts\Interaction_System\InteractableBase.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeB.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_UiFrameRateCounter.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexColorCycler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
+    <Compile Include="Assets\Scripts\Interaction_System\InteractionUIPanel.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMPro_InstructionOverlay.cs" />
+    <Compile Include="Assets\Scripts\Interaction_System\InteractionData.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TeleType.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshProFloatingText.cs" />
+    <Compile Include="Assets\Scripts\Camera_Controller\CameraZoom.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
+    <Compile Include="Assets\Scripts\Interaction_System\Hoverable.cs" />
+    <Compile Include="Assets\Scripts\Scriptable_Objects\PickableInputData.cs" />
+    <Compile Include="Assets\Scripts\Interactables\SheffsInteractable.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -669,8 +669,14 @@
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Postprocessing.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Postprocessing.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
@@ -678,24 +684,18 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.Postprocessing.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Postprocessing.Runtime">
-      <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{79391AC5-8752-B4CC-F33F-BB9EB1094377}</Project>
+      <Project>{0F566D5B-C22B-7666-E6C0-197C6CB8EF24}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{5166EF62-49B1-83F8-4CE9-414B06C593E4}</Project>
+      <Project>{7EA55F7A-1467-032D-D1A9-7A4DD9DDB0F1}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{46D59EF0-6788-C10D-25DD-0D8144EB4B31}</Project>
+      <Project>{0093FCB8-3B44-F346-757D-8C1FAA9654DC}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
   </ItemGroup>

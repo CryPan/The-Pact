@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{5166EF62-49B1-83F8-4CE9-414B06C593E4}</ProjectGuid>
+    <ProjectGuid>{7EA55F7A-1467-032D-D1A9-7A4DD9DDB0F1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>UnityEngine.UI</AssemblyName>
@@ -52,6 +52,8 @@
     <UnityVersion>2020.1.3f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Button.cs" />
+    <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Text.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\CanvasScaler.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\IMaskable.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Utility\VertexHelper.cs" />
@@ -59,7 +61,6 @@
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\MoveDirection.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\FontUpdateTracker.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\InputModules\BaseInputModule.cs" />
-    <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Text.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Scrollbar.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\EventSystem\ExecuteEvents.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\VertexModifiers\PositionAsUV1.cs" />
@@ -97,7 +98,6 @@
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\MaskUtilities.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\ScrollRect.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\StencilMaterial.cs" />
-    <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Button.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\Layout\LayoutRebuilder.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\RawImage.cs" />
     <Compile Include="C:\Program Files\Unity\Editor\Data\Resources\PackageManager\BuiltInPackages\com.unity.ugui\Runtime\UI\Core\SpriteState.cs" />
@@ -338,11 +338,11 @@
     <Reference Include="UnityEditor.WindowsStandalone.Extensions">
       <HintPath>C:\Program Files\Unity\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
-    <Reference Include="DOTweenEditor">
-      <HintPath>Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>Assets\Plugins\Demigiant\DOTween\DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="DOTweenEditor">
+      <HintPath>Assets\Plugins\Demigiant\DOTween\Editor\DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:\Program Files\Unity\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>

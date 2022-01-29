@@ -80,6 +80,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_ExampleScript_01.cs" />
     <Compile Include="Assets\Scripts\Scriptable_Objects\PerlinNoiseData.cs" />
     <Compile Include="Assets\Scripts\Camera_Controller\CameraSwaying.cs" />
+    <Compile Include="Assets\Scripts\Interactables\sheffsInteractable.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\ObjectSpin.cs" />
     <Compile Include="Assets\Scripts\Input_Handler\InputHandler.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TMP_DigitValidator.cs" />
@@ -117,9 +118,9 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Interaction_System\Hoverable.cs" />
     <Compile Include="Assets\Scripts\Scriptable_Objects\PickableInputData.cs" />
-    <Compile Include="Assets\Scripts\Interactables\SheffsInteractable.cs" />
   </ItemGroup>
   <ItemGroup>
+     <None Include="Assets\Add Code to Open Shelfs.txt" />
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

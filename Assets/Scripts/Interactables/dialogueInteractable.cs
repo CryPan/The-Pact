@@ -20,11 +20,10 @@ namespace VHS
         public string D2;
         public string D3;
         public string D4;
-        public Text AItext = null;
+        public Text AItextBox = null;
         public Text Option1 = null;
         public Text Option2 = null;
         public Text Option3 = null;
-        public Text LeaveButton = null;
         public GameObject diaglogueUI = null;
 
         void Start()
@@ -32,6 +31,7 @@ namespace VHS
             diaglogueUI.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
+            
         }
 
         public override void OnInteract()
@@ -40,6 +40,7 @@ namespace VHS
             diaglogueUI.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
+
 
         }
 

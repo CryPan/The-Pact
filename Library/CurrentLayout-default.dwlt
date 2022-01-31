@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1536
     height: 780.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Scene
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 781
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 373
+  controlID: 66
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 128
+  controlID: 67
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 129
+  controlID: 37
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 304
     height: 460
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -218,8 +218,8 @@ MonoBehaviour:
     y: 0
     width: 653
     height: 460
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -493,7 +493,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -551,10 +551,10 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 1822}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: acd2ffffa4f3ffff28fbffff2cfbffff34fbffff36fbffffc0390000
+      scrollPos: {x: 0, y: 2558}
+      m_SelectedIDs: 6c2effff
+      m_LastClickedID: -53652
+      m_ExpandedIDs: 5a43ffffb64affff8e66ffffe4bcffffaed2ffff1cf3ffffa4f3ffff5af9ffff28fbffff2cfbffff34fbffff36fbffffbe390000c8390000e6390000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -614,9 +614,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -12.357576, y: -0.20241117, z: -14.6116705}
+    m_Target: {x: -27.358362, y: -2.715851, z: -34.433834}
     speed: 2
-    m_Value: {x: -12.357576, y: -0.20241117, z: -14.6116705}
+    m_Value: {x: -27.358362, y: -2.715851, z: -34.433834}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -663,13 +663,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.006298601, y: -0.061471242, z: 0.00035281797, w: 0.99812794}
+    m_Target: {x: 0.06709801, y: -0.79221934, z: 0.0885287, w: 0.6001062}
     speed: 2
-    m_Value: {x: 0.0062972694, y: -0.06446284, z: 0.0003716977, w: 0.9979002}
+    m_Value: {x: 0.067095384, y: -0.79218835, z: 0.088525236, w: 0.6000827}
   m_Size:
-    m_Target: 7.0996904
+    m_Target: 7.6593146
     speed: 2
-    m_Value: 7.434231
+    m_Value: 7.6593146
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -942,9 +942,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 234}
-    m_SelectedIDs: 72fe0000
-    m_LastClickedID: 65138
-    m_ExpandedIDs: 000000003afe00003cfe00003efe000064fe000000ca9a3b
+    m_SelectedIDs: 78fe0000
+    m_LastClickedID: 65144
+    m_ExpandedIDs: 0000000042fe000044fe000046fe000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -972,7 +972,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000003afe00003cfe00003efe0000
+    m_ExpandedIDs: 0000000042fe000044fe000046fe0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 

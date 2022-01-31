@@ -118,6 +118,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Interaction_System\Hoverable.cs" />
     <Compile Include="Assets\Scripts\Scriptable_Objects\PickableInputData.cs" />
+    <Compile Include="Assets\Scripts\Interactables\dialogueInteractable.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\Add Code to Open Shelfs.txt" />

@@ -458,6 +458,39 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69475be2f4d332e4e84b4bdfc2582215, type: 3}
+--- !u!1 &887207910 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6229234828553078377, guid: 69475be2f4d332e4e84b4bdfc2582215, type: 3}
+  m_PrefabInstance: {fileID: 887207909}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &887207911
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887207910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29d0e4ceb10c5074db4f4ea74835c4ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  holdInteract: 1
+  holdDuration: 1
+  multipleUse: 1
+  isInteractable: 1
+  tooltipMessage: Talk To
+  A1: 
+  B1: 
+  B2: 
+  C1: 
+  C2: 
+  C3: 
+  C4: 
+  D1: 
+  D2: 
+  D3: 
+  D4: 
 --- !u!320 &908089244 stripped
 PlayableDirector:
   m_CorrespondingSourceObject: {fileID: 4246089415685025767, guid: 69475be2f4d332e4e84b4bdfc2582215, type: 3}

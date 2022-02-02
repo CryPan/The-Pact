@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.Rendering.PostProcessing;
 
 namespace VHS
 {    
@@ -13,10 +14,19 @@ namespace VHS
         public GameObject Interact = null;
         public GameObject NoteColor = null;
 
+        public PostProcessVolume volume;
+
+        private DepthOfField _DepthOfField;
+        float DepthOfFieldInts = 12f;
+
         void Start()
         {
+            volume.profile.TryGetSettings(out _DepthOfField);
+
+            _DepthOfField.aperture.value = DepthOfFieldInts;
+
             textOnNote.text = "" + notetext;
-            Interact.SetActive(true);
+            Interact.SetActive(false);
             NoteColor.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;
@@ -25,8 +35,14 @@ namespace VHS
         public override void OnInteract()
         {
             base.OnInteract();
+            DepthOfFieldInts = 0.1f;
+
+            volume.profile.TryGetSettings(out _DepthOfField);
+
+            _DepthOfField.aperture.value = DepthOfFieldInts;
+
             textBox.text = "" + notetext;
-            Interact.SetActive(false);
+            Interact.SetActive(true);
             NoteColor?.SetActive(true);
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
@@ -35,7 +51,13 @@ namespace VHS
 
         public void HideNote()
         {
-            Interact.SetActive(true);
+            DepthOfFieldInts = 12f;
+
+            volume.profile.TryGetSettings(out _DepthOfField);
+
+            _DepthOfField.aperture.value = DepthOfFieldInts;
+
+            Interact.SetActive(false);
             NoteColor.SetActive(false);
             Cursor.lockState = CursorLockMode.Locked;
             Cursor.visible = false;

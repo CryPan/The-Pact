@@ -161,7 +161,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 210973275}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.205, y: 0.638, z: -1.595}
+  m_LocalPosition: {x: 21.136456, y: 0.63492477, z: -45.040478}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1511062115}
@@ -188,8 +188,9 @@ MonoBehaviour:
   textOnNote: {fileID: 1238168503}
   notetext: kyle is a cool guy and he has a good smile and he should have a good
     life
-  Interact: {fileID: 1225693167}
+  Interact: {fileID: 755384072}
   NoteColor: {fileID: 1400050197}
+  volume: {fileID: 859878197}
 --- !u!65 &210973278
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -613,6 +614,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &755384072 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6568135202580613610, guid: 1315bc4d5d08bd84d877ff825f140d41, type: 3}
+  m_PrefabInstance: {fileID: 6568135202072607000}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &812807344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1749,11 +1755,6 @@ Transform:
   m_Father: {fileID: 1860567006}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1225693167 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7267635490534717493, guid: 30b1c8c4b8fca734e930322b2508ebdf, type: 3}
-  m_PrefabInstance: {fileID: 7267635491491114970}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1225693171 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 7267635490534717481, guid: 30b1c8c4b8fca734e930322b2508ebdf, type: 3}
@@ -4197,7 +4198,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1769333184401576440, guid: d2a4720d8b76e45449b667ea435d5da6, type: 3}
       propertyPath: smoothRotateSpeed
-      value: 11.7
+      value: 25.3
       objectReference: {fileID: 0}
     - target: {fileID: 1769333184401576440, guid: d2a4720d8b76e45449b667ea435d5da6, type: 3}
       propertyPath: smoothInputSpeed
@@ -4210,6 +4211,10 @@ PrefabInstance:
     - target: {fileID: 1769333184401576440, guid: d2a4720d8b76e45449b667ea435d5da6, type: 3}
       propertyPath: smoothVelocitySpeed
       value: 58.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1769333184401576440, guid: d2a4720d8b76e45449b667ea435d5da6, type: 3}
+      propertyPath: experimental
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1769333184401576443, guid: d2a4720d8b76e45449b667ea435d5da6, type: 3}
       propertyPath: m_Name
@@ -4286,7 +4291,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4829734441581150941, guid: ec17a07835a4faa41b0853131a6f7b96, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 52.859478
+      value: 9.414
       objectReference: {fileID: 0}
     - target: {fileID: 4829734441581150941, guid: ec17a07835a4faa41b0853131a6f7b96, type: 3}
       propertyPath: m_LocalRotation.x
@@ -4322,11 +4327,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4829734441581150941, guid: ec17a07835a4faa41b0853131a6f7b96, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 25.688547
+      value: 47.03
       objectReference: {fileID: 0}
     - target: {fileID: 4829734441581150941, guid: ec17a07835a4faa41b0853131a6f7b96, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.9630753
+      value: 1.96
       objectReference: {fileID: 0}
     - target: {fileID: 4829734441581150941, guid: ec17a07835a4faa41b0853131a6f7b96, type: 3}
       propertyPath: m_SizeDelta.x
@@ -4387,7 +4392,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6568135202580613610, guid: 1315bc4d5d08bd84d877ff825f140d41, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6568135202580613614, guid: 1315bc4d5d08bd84d877ff825f140d41, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4576,7 +4581,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7267635490534717493, guid: 30b1c8c4b8fca734e930322b2508ebdf, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30b1c8c4b8fca734e930322b2508ebdf, type: 3}
